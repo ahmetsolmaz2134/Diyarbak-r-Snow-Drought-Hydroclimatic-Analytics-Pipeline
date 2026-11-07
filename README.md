@@ -1,140 +1,123 @@
 # ❄️ Diyarbakır Snow Drought & Hydroclimatic Analytics Pipeline
 
-### A Graphical Investigation of Snow Drought Dynamics and Hydroclimatic Variability in Southeastern Türkiye
+### Graphical Analysis of Snow Drought Dynamics and Hydroclimatic Variability in Diyarbakır, Türkiye
 
 **Author:** Ahmet Solmaz  
-**Study Area:** Diyarbakır, Türkiye  
 **Data Source:** NASA POWER  
 **Programming Language:** R
 
 ---
 
-# 1. GRAPHICAL RESULTS AND SCIENTIFIC INTERPRETATION
+# GRAPHICAL RESULTS
 
-This section presents the graphical outputs of the research, emphasizing the temporal behavior, seasonal characteristics, and statistical properties of snow-related hydroclimatic variables.
+This research presents a comprehensive graphical investigation of snow drought dynamics and hydroclimatic variability in Diyarbakır, Türkiye.
 
-The visualizations constitute the primary analytical component of this project.
+The following figures represent the main analytical outputs of the project. Particular emphasis is placed on meteorological variability, precipitation phase, snow accumulation, Snow Water Equivalent (SWE), snow drought anomalies, and statistical trends.
 
-## 1.1. Meteorological and Hydroclimatic Variability
+## 1. Hydroclimatic Variability
 
-### Figure 1. Meteorological Variability
+### Figure 1. Meteorological Characteristics
 
-![Figure 1](outputs/figures/figure_01.png)
+![Figure 1](/outputs/figures/FIGURE_1.png)
 
-**Scientific Interpretation**
+The meteorological characteristics provide the background for evaluating the atmospheric conditions controlling snow accumulation. Temperature and precipitation should be interpreted together to understand variations in snowfall potential.
 
-The meteorological assessment provides the foundation for understanding the atmospheric conditions influencing snow accumulation. Temperature and precipitation variability should be examined jointly to understand changes in precipitation phase and potential snow availability.
+---
 
-## 1.2. Rainfall and Snowfall Characteristics
+## 2. Rainfall and Snowfall Dynamics
 
-### Figure 2. Rainfall–Snowfall Partitioning
+### Figure 2. Rain–Snow Partitioning
 
-![Figure 2](outputs/figures/figure_02.png)
+![Figure 2](/outputs/figures/FIGURE_2.png)
 
-**Scientific Interpretation**
+The partitioning of precipitation into rainfall and snowfall is an essential component of snow drought assessment. Temperature-dependent changes in precipitation phase may influence snow accumulation independently of total precipitation variability.
 
-The distinction between rainfall and snowfall is fundamental to snow drought research. Temperature-dependent precipitation partitioning helps explain why similar precipitation totals may produce different seasonal snow accumulation outcomes.
+---
 
-## 1.3. Snow Accumulation Dynamics
+## 3. Snow Accumulation Dynamics
 
 ### Figure 3. Seasonal Snow Accumulation
 
-![Figure 3](outputs/figures/figure_03.png)
+![Figure 3](/outputs/figures/FIGURE_3.png)
 
-**Scientific Interpretation**
+Seasonal snow accumulation illustrates the temporal distribution of modeled solid precipitation. The interaction between snowfall and snowmelt determines the evolution of seasonal snow storage.
 
-Snow accumulation dynamics provide information about the seasonal distribution of modeled snowfall. The relationship between snowfall input and subsequent melting determines the temporal evolution of snow storage.
+---
 
-## 1.4. Snow Water Equivalent (SWE)
+## 4. Snow Water Equivalent
 
-### Figure 4. Snow Water Equivalent Dynamics
+### Figure 4. Snow Water Equivalent (SWE)
 
-![Figure 4](outputs/figures/figure_04.png)
+![Figure 4](/outputs/figures/FIGURE_4.png)
 
-**Scientific Interpretation**
+SWE provides an estimate of water stored within the modeled snowpack. Its temporal variability is important for understanding seasonal snow storage and potential changes in water availability.
 
-SWE represents the water equivalent stored in the modeled snowpack. Its temporal behavior is particularly relevant for evaluating seasonal snow storage and potential changes in water availability.
+---
 
-## 1.5. Snow Drought Anomalies
+## 5. Snow Drought Anomalies
 
 ### Figure 5. Snow Accumulation Anomalies
 
-![Figure 5](outputs/figures/figure_05.png)
+![Figure 5](/outputs/figures/FIGURE_5.png)
 
-**Scientific Interpretation**
-
-Snow accumulation anomalies describe departures from reference conditions. Negative anomalies indicate below-reference snow accumulation, while positive anomalies indicate relatively enhanced accumulation.
-
-The magnitude and persistence of negative anomalies are important for identifying potential snow drought conditions.
-
-## 1.6. Temporal Snow Drought Variability
-
-### Figure 6. Snow Drought Temporal Variability
-
-![Figure 6](outputs/figures/figure_06.png)
-
-**Scientific Interpretation**
-
-Temporal variability analysis helps distinguish isolated seasonal snow deficits from persistent periods of reduced snow accumulation. This distinction is important for evaluating the duration and recurrence of snow drought conditions.
-
-## 1.7. Statistical Trend Assessment
-
-### Figure 7. Mann–Kendall Trend Analysis
-
-![Figure 7](outputs/figures/figure_07.png)
-
-**Scientific Interpretation**
-
-The Mann–Kendall test evaluates the direction and statistical significance of monotonic trends. Its results provide a statistical framework for assessing potential temporal changes in snow-related hydroclimatic variables.
-
-### Figure 8. Sen's Slope Estimation
-
-![Figure 8](outputs/figures/figure_08.png)
-
-**Scientific Interpretation**
-
-Sen's Slope estimates the magnitude of temporal change. When considered alongside Mann–Kendall results, it provides a complementary assessment of the direction and rate of observed trends.
+Snow accumulation anomalies identify departures from reference conditions. Negative anomalies represent below-reference snow accumulation, while positive anomalies indicate above-reference conditions.
 
 ---
 
-# 2. INTEGRATED SCIENTIFIC ASSESSMENT
+## 6. Temporal Snow Drought Variability
 
-The graphical outputs provide an integrated perspective on the relationship between atmospheric conditions, precipitation phase, snow accumulation, snow storage, and snow drought variability.
+### Figure 6. Snow Drought Characteristics
 
-The analytical framework emphasizes three major dimensions:
+![Figure 6](/outputs/figures/FIGURE_6.png)
 
-- **Meteorological controls:** Temperature and precipitation conditions influencing snowfall formation.
-- **Snow storage dynamics:** Seasonal accumulation, melting, and modeled SWE variability.
-- **Statistical characteristics:** Snow anomalies, temporal persistence, and long-term trend behavior.
-
-The combined interpretation of these dimensions is essential for understanding snow drought processes in a semi-arid hydroclimatic environment.
+The temporal behavior of snow-related indicators provides insight into the magnitude and persistence of snow accumulation deficits. Consecutive negative anomalies may indicate prolonged snow drought conditions.
 
 ---
 
-# 3. RESEARCH SIGNIFICANCE
+## 7. Mann–Kendall Trend Analysis
 
-This research demonstrates the application of open-access NASA POWER meteorological data and R-based analytical procedures to investigate snow drought dynamics in Diyarbakır, Türkiye.
+### Figure 7. Non-parametric Trend Assessment
 
-The project contributes to regional hydroclimatic research through:
+![Figure 7](/outputs/figures/FIGURE_7.png)
 
-- Snow-related hydroclimatic visualization.
-- Rainfall and snowfall differentiation.
-- Seasonal snow accumulation assessment.
+The Mann–Kendall test evaluates the direction and statistical significance of monotonic trends in the analyzed hydroclimatic variables.
+
+---
+
+## 8. Sen's Slope Analysis
+
+### Figure 8. Trend Magnitude Estimation
+
+![Figure 8](/outputs/figures/FIGURE_8.png)
+
+Sen's Slope provides an estimate of the magnitude and direction of temporal changes. Together with Mann–Kendall testing, it supports the statistical interpretation of long-term hydroclimatic variability.
+
+---
+
+# INTEGRATED SCIENTIFIC INTERPRETATION
+
+The graphical outputs provide an integrated perspective on the relationships between meteorological conditions, precipitation phase, seasonal snow accumulation, snow storage, and snow drought variability.
+
+The project emphasizes the importance of distinguishing precipitation deficits from snow accumulation deficits.
+
+The combination of meteorological analysis, temperature-based snow modeling, anomaly assessment, and statistical trend evaluation provides a methodological foundation for investigating regional snow drought processes.
+
+# RESEARCH CONTRIBUTION
+
+- Hydroclimatic variability assessment.
+- Rainfall–snowfall partitioning.
+- Seasonal snow accumulation modeling.
 - Snow Water Equivalent estimation.
 - Snow drought anomaly analysis.
-- Statistical trend investigation.
-- Reproducible climate data analytics.
+- Temporal variability assessment.
+- Mann–Kendall trend testing.
+- Sen's Slope estimation.
 
----
-
-# 4. AUTHORSHIP
+# AUTHOR
 
 **Ahmet Solmaz**
 
-Independent Researcher  
 Hydroclimatology | Climate Variability | Snow Drought Analytics | Environmental Data Science
 
-**Project:** Diyarbakır Snow Drought & Hydroclimatic Analytics Pipeline
-
 **Data Source:** NASA POWER  
-**Analytical Environment:** R
+**Programming Language:** R
